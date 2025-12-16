@@ -1,10 +1,5 @@
 from flask import Flask, request, make_response, render_template_string
-from azure.storage.blob import ContainerClient
 import os
-import pyodbc
-from flask_sqlalchemy import SQLAlchemy
-from urllib.parse import quote_plus 
-from sqlalchemy import create_engine
 
 
 app = Flask(__name__)
